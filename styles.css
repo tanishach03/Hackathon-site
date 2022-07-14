@@ -1,0 +1,152 @@
+body {
+    background: #eabbb9 url("images/bg-img.jpg") ;
+    background-blend-mode: overlay;
+}
+
+#navbar{
+    background: #eabbb9 url("images/bg-img.jpg") ;
+    background-blend-mode: overlay;
+    color: #501e38;
+    font-size: 22px;
+}
+
+.navbar-nav{
+    margin-left: 1000px;
+}
+
+.navbar-brand{
+    font-size: 22px;
+}
+
+span{
+    color: #451f33;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Heading {
+    padding: 5%;
+}
+.Heading{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+    font-size: 180px;
+    text-align: center;
+    color: #742750;
+}
+
+h1{
+        font-family: 'Roboto Mono', monospace;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #cd6c9f;
+        padding: 2%;
+}
+.head-text{
+    text-align: center;
+    color: #7d3059;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#Speakers{
+    background: #742750;
+}
+
+.container{
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card, .cardColor, .textColor {
+	transition: background-color .3s ease-in 0s;
+    background-color: black;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+/* .card-img-top{
+    height: 50px;
+    width: 30px;
+} */
+
+
+
+
+
+
+/* .cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid rgb(21, 21, 21);
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+
+p {
+  color: white;
+  font-family: 'arial';
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.4em;
+} */
